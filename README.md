@@ -1,1 +1,3 @@
-# koulu
+# Jere Pesonen
+## Tieto- ja Viestintätekniikka
+### Koulutehtävät
