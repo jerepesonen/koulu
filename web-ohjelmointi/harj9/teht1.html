@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+        <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Highscores</h1>
+        <div id="ratkaisu" class="box"></div>
+
+        <script type="text/babel">
+            let highscoreData = [
+                { id: 1, name: "Jason", score: 4000 },
+                { id: 2, name: "Make", score: 3000 },
+                { id: 3, name: "Bill", score: 2000 },
+                { id: 4, name: "Liza", score: 1000 },
+            ];
+
+            class BoxComponent extends React.Component {
+                constructor(props) {
+                    super(props);
+                    this.state = { highscores: [], loaded: false };
+                    this.onLoadClick = this.onLoadClick.bind(this);
+                    this.getHighscores();
+                }
+                getHighscores() {
+                    setTimeout(() => this.setState({ highscores: highscoreData, loaded: true }), 3000);
+                }
+                render() {
+                    if (!this.state.loaded) {
+                        return (
+                            <div>
+                                <p>loading...</p>
+                            </div>
+                        );
+                    }
+                    return (
+                        <div>
+                            <table>
+                                <tbody>
+                                    {this.state.highscores.map((score, index) => (
+                                        <tr key={index}>
+                                            <td>{score.id}</td>
+                                            <td>{score.name}</td>
+                                            <td>{score.score}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                            <p>
+                                <button onClick={this.onLoadClick}>Load again</button>
+                            </p>
+                        </div>
+                    );
+                }
+                onLoadClick() {
+                    this.setState({ highscores: [], loaded: false });
+                    this.getHighscores();
+                }
+            }
+
+            ReactDOM.render(<BoxComponent />, document.getElementById("ratkaisu"));
+        </script>
+    </body>
+</html>
+

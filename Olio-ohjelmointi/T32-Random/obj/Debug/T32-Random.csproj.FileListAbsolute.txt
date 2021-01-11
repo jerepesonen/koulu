@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\bin\Debug\T32-Random.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\bin\Debug\T32-Random.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\bin\Debug\T32-Random.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\obj\Debug\T32-Random.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\obj\Debug\T32-Random.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\obj\Debug\T32-Random.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T32-Random\obj\Debug\T32-Random.csprojAssemblyReference.cache

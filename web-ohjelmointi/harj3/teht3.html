@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tulosta tasoitukset</title>
+
+<script>
+function lisaa() {
+var hcpdata = [{ "name": "Ari", "hcp": 54 },
+               { "name": "Pasi", "hcp": 5 },
+               { "name": "Seppo", "hcp": 20 }];
+               poista()
+               for (const key of hcpdata) {
+               uusi(Object.values(key))
+               }
+}
+
+function uusi(a){
+  let str = a.toString().replace(/,/g, " ")
+  let ulnode = document.getElementById("hcplist");
+  let linode = document.createElement('li');
+  let litext = document.createTextNode(str);
+  linode.appendChild(litext);
+  ulnode.appendChild(linode);
+
+}
+function poista(){
+var list = document.getElementById("hcplist");
+  while(list.hasChildNodes()) {
+  list.removeChild(list.firstChild);
+} 
+}
+
+
+</script>
+
+</head>
+<body>
+    <button onclick=lisaa()>Tulosta tasoitukset</button>
+	<ul id="hcplist"></ul>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\bin\Debug\T40-Kuviot.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\bin\Debug\T40-Kuviot.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\bin\Debug\T40-Kuviot.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\obj\Debug\T40-Kuviot.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\obj\Debug\T40-Kuviot.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\obj\Debug\T40-Kuviot.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T40-Kuviot\obj\Debug\T40-Kuviot.pdb

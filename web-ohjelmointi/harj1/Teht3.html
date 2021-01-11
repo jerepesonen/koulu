@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Summalaskin</h2>
+
+<form id="f">
+   <input type=text id="n1"><br>
+   <input type=text id="n2"><br>
+   <button type="button" onclick="tulostaSumma(f.n1.value, f.n2.value)">Laske</button>
+</form>
+<script>
+function tulostaSumma(a, b) {
+	var summa = laskeSumma(a, b);
+	document.getElementById("results").innerHTML = "summa = " + summa;
+}
+function laskeSumma (a, b){
+	return parseInt(a) + parseInt(b);
+}
+</script>
+<p id="f"></p>
+<p id="results"></p>
+
+</body>
+</html> 
+

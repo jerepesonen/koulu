@@ -1,0 +1,17 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\T35-LaskutoimituksiaTests.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\T35-LaskutoimituksiaTests.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\T35-Laskutoimituksia.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\T35-Laskutoimituksia.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\T35-Laskutoimituksia.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\obj\Debug\T35-LaskutoimituksiaTests.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\obj\Debug\T35-LaskutoimituksiaTests.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\obj\Debug\T35-LaskutoimituksiaTests.csproj.CopyComplete
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\obj\Debug\T35-LaskutoimituksiaTests.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-LaskutoimituksiaTests\obj\Debug\T35-LaskutoimituksiaTests.pdb

@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\bin\Debug\T1-Koulunumero.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\bin\Debug\T1-Koulunumero.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\bin\Debug\T1-Koulunumero.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\obj\Debug\T1-Koulunumero.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\obj\Debug\T1-Koulunumero.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\obj\Debug\T1-Koulunumero.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T1-Koulunumero\obj\Debug\T1-Koulunumero.pdb

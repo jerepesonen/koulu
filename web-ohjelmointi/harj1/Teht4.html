@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1> Taulukon [11, 22, 33, 44] läpikäyntiä</h2>
+<hr>
+<p id="summa"> </p>
+<p id="lkm"> </p>
+<p id="ka"> </p>
+<script>
+taulukko = [11, 22, 33, 44];
+var summa = 0;
+var lkm = 0;
+var ka = 0;
+var tulosrivit = 0;
+
+for (element of taulukko)
+{
+summa = summa + element;
+}
+
+for (i = 0; i < taulukko.length; i++)
+{
+lkm = lkm + 1;
+}
+
+ka = summa/lkm;
+document.getElementById("summa").innerHTML = "Summa = " + summa;
+document.getElementById("lkm").innerHTML = "Lkm = " + lkm;
+document.getElementById("ka").innerHTML = "Ka = " + ka;
+</script>
+</body>
+</html> 
+
