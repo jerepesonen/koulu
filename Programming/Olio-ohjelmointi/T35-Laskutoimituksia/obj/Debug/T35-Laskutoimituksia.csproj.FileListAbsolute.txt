@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\bin\Debug\T35-Laskutoimituksia.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\bin\Debug\T35-Laskutoimituksia.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\bin\Debug\T35-Laskutoimituksia.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\obj\Debug\T35-Laskutoimituksia.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\obj\Debug\T35-Laskutoimituksia.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\obj\Debug\T35-Laskutoimituksia.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T35-Laskutoimituksia\obj\Debug\T35-Laskutoimituksia.pdb

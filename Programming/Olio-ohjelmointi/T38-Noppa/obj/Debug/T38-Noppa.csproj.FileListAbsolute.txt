@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\bin\Debug\T38-Noppa.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\bin\Debug\T38-Noppa.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\bin\Debug\T38-Noppa.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\obj\Debug\T38-Noppa.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\obj\Debug\T38-Noppa.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\obj\Debug\T38-Noppa.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T38-Noppa\obj\Debug\T38-Noppa.pdb

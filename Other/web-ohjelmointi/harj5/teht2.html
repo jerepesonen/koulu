@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <head>
+      <link rel="stylesheet" type="text/css" href="teht2.css">
+    </head>
+    <h1>Tehtävälista</h1>
+
+    <form id="myForm">
+      <input type=text id="teht">
+      <button type="submit">Lisää</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+
+        $("#myForm").submit(function(e) {
+          e.preventDefault();
+          var $luvut = $("#myForm :input");
+          $("#lista").append('<li>' + $luvut[0].value + '</li>');
+          $("input").focus().val("");
+        });
+        $("input").focus(function() {
+          $("this").text("");
+        });
+        $("#lista").click(function(e) {
+          $(e.target).remove();
+        });
+
+      });
+
+    </script>
+    <ul id=lista>
+    </ul>
+  </body>
+
+</html>
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Summalaskin</h2>
+
+<form id="myForm">
+   <input type=text id="n1"><br>
+   <input type=text id="n2"><br>
+   <button type="submit">Laske</button>
+</form>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+	$("#myForm").submit(function(e){
+		e.preventDefault();
+        var $luvut = $("#myForm :input");
+        $("#results").text(parseInt($luvut[0].value) + parseInt($luvut[1].value));
+	});
+</script>
+<p id="myForm"></p>
+<p id="results"></p>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\obj\Debug\T36-OstoskärryTests2.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\obj\Debug\T36-OstoskärryTests2.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\T36-OstoskärryTests2.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\T36-OstoskärryTests2.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\T36-Ostoskärry.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\T36-Ostoskärry.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\T36-Ostoskärry.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\obj\Debug\T36-OstoskärryTests2.csproj.CopyComplete
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\obj\Debug\T36-OstoskärryTests2.dll
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-OstoskärryTests2\obj\Debug\T36-OstoskärryTests2.pdb

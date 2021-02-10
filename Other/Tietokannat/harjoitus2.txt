@@ -1,0 +1,31 @@
+#Hae rate-arvon keskiarvo osastoilta M-P. Anna tulosjoukon sarakkeelle nimeksi Keskiarvo.
+SELECT AVG(RATE) AS KESKIARVO FROM EMPS WHERE DEPT BETWEEN 'M' AND 'P';
+
+#Hae työntekijätaulusta niiden henkilöiden lukumäärä, joiden rate-arvo on välillä 6-8. Anna tulosjoukon sarakkeelle nimeksi Lukumäärä
+SELECT COUNT(*) AS LUKUMÄÄRÄ FROM EMPS WHERE RATE BETWEEN 6 AND 8;
+
+#Hae rate-arvon maksimi- ja minimiarvot (nimeä tulosjoukon sarakkeet Suurin, Pienin) niiden henkilöiden osalta, jotka asuvat kaupungissa Davis.
+SELECT MAX(RATE) AS SUURIN, MIN(RATE) AS PIENIN FROM EMPS WHERE CITY = 'Davis';
+
+# Laske osastokohtaisesti kuinka monta yli 10 rate-arvon omaavaa henkilöä työskentelee kullakin osastolla. Tulosjoukossa tulee mainita osasto ja lukumäärä henkilöistä (sarakenimeksi Lukumäärä). Lajittele tulosjoukko Lukumäärän mukaan laskevaan järjestykseen.
+SELECT DEPT,COUNT(*) AS LUKUMÄÄRÄ FROM EMPS WHERE RATE > 10 GROUP BY DEPT ORDER BY LUKUMÄÄRÄ DESC;
+
+#Luo käyttäjätunnukset työntekijöille käyttämällä SUBSTRING-funktiota. Muodosta käyttäjätunnukset seuraavasti: etunimen kaksi ensimmäistä kirjainta, sukunimen kolme viimeistä kirjainta ja puhelinnumeron kolme ensimmäistä numeroa. Anna tulosjoukon sarakkeelle nimeksi "Käyttäjätunnus".
+SELECT *,CONCAT(LEFT(GNAME,2), RIGHT(SURNAME,3), LEFT(PHONE,3)) AS KÄYTTÄJÄTUNNUS FROM EMPS;
+
+#Hae erilaisten kaupunkien nimet siten, että tulosjoukossa kaupunkien nimet esitetään pienillä kirjaimilla. Anna tulosjoukon nimeksi "Paikat". Järjestä hakutulokset kaupungin nimen mukaan nousevaan järjestykseen.
+SELECT DISTINCT LOWER(CITY) AS PAIKAT FROM EMPS ORDER BY PAIKAT DESC;
+
+#Hae työntekijöiden etunimi, sukunimi ja sukunimen pituus (tulosjoukon sarakkeen nimeksi sukunimi_pituus). Näytä hakutuloksissa vain ne henkilöt, joiden sukunimen pituus on suurempi kuin kuusi merkkiä.
+SELECT GNAME, SURNAME, LENGTH(SURNAME) AS SUKUNIMI_PITUUS FROM EMPS HAVING SUKUNIMI_PITUUS > 6;
+
+#Tee luokittelu osastojen budjeteille siten, että alle 100000 dollarin budjetit ilmaistaan merkinnällä alhainen ja 100000 dollaria suuremmat budjetit merkinnällä korkea. Tulosjoukkoon merkitään sarakkeet dept, duty, budget sekä luokittelun sisältävä sarake "budjettiluokittelu".
+SELECT *, 
+	CASE
+		WHEN BUDGET>=100000 THEN 'KORKEA'
+		WHEN BUDGET<100000 THEN 'ALHAINEN'
+	END AS BUDJETTILUOKITTELU
+FROM DEPT;
+
+#Laske rate-arvojen keskiarvot kaupunkikohtaisesti (ryhmittely kaupungin mukaan) siten, että hakutuloksissa ilmoitetaan kaupunki ja rate-arvon keskiarvo. Tee tulosjoukkoon lajittelu rate-arvon mukaan laskevaan järjestykseen.
+SELECT CITY, AVG(RATE) AS AVGRATE FROM EMPS GROUP BY CITY ORDER BY AVGRATE DESC;

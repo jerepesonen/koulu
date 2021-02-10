@@ -1,0 +1,7 @@
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\bin\Debug\T28-Liiga.exe.config
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\bin\Debug\T28-Liiga.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\bin\Debug\T28-Liiga.pdb
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\obj\Debug\T28-Liiga.csprojAssemblyReference.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\obj\Debug\T28-Liiga.csproj.CoreCompileInputs.cache
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\obj\Debug\T28-Liiga.exe
+C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T28-Liiga\obj\Debug\T28-Liiga.pdb

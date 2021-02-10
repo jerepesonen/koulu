@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1> Taulukon [11, 22, 33, 44] läpikäyntiä</h1>
+<hr>
+<p id="print"></p> 
+<p id="summa"></p>
+<p id="keskiarvo"></p>
+<p id="luku"></p>
+<script>
+const taulukko = [11, 22, 33, 44];
+let summa = 0;
+let lkm = 0;
+
+function arraySum(taulukko){
+        for (element of taulukko)
+                {
+                summa = summa + element;
+                }
+    return summa;
+    }
+
+function arrayAvg(taulukko){
+    let e = 0;
+        for (i = 0; i < 3; i++)
+        {
+        e = e + element;
+        }
+        return e/i;
+    }
+
+function arrayCount(taulukko){
+    var o = 0;
+    for (element of taulukko){
+        o = o+1;
+    }
+        return o;
+    }
+  
+function printArray(taulukko){
+    let palautus = "";
+    let i = 0;
+    for (element of taulukko)
+    {
+        palautus = palautus + "taulukko[" + i.toString() + "] = " + element.toString() + "<br>";
+        i = i+1;
+    }
+        return "alkior ovat: <br><br>" + palautus;
+    }
+
+function writeResults(){
+    document.getElementById("summa").innerHTML = "summa = " + arraySum(taulukko);
+    document.getElementById("luku").innerHTML = " lukumäärä = " + arrayCount(taulukko);
+    document.getElementById("keskiarvo").innerHTML = "keskiarvo = " + arrayAvg(taulukko);
+    document.getElementById("print").innerHTML = printArray(taulukko);
+}
+
+window.onload = writeResults;
+
+</script>
+</body>
+</html> 

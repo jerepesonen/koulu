@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<h1> Taulukon [11, 22, 33, 44] läpikäyntiä</h1>
+<hr>
+	<p id="sisalto"></p>
+<script>
+const taulukko = [11, 22, 33, 44];
+const arraySum = (accumulator, currentValue) => accumulator + currentValue;
+const arrayCount = arr => arr.length;
+const arrayAvg = arr => arr.reduce(arraySum) / arr.length;
+ 
+const printArray = (taulukko)  => {
+    let palautus = "";
+    let i = 0;
+    for (element of taulukko)
+    {
+        palautus = palautus + "taulukko[" + i.toString() + "] = " + element.toString() + "<br>";
+        i = i+1;
+    }
+        return palautus;
+    }
+
+let sisalto = `
+Alkiot ovat:<br><br>
+${printArray(taulukko)}<br>
+Lukumäärä on ${arrayCount(taulukko)}<br>
+Summa on: ${taulukko.reduce(arraySum)}<br>
+Keskiarvo on: ${arrayAvg(taulukko)}
+`;
+
+document.getElementById("sisalto").innerHTML = sisalto
+		
+</script>
+</body>
+</html> 

@@ -1,0 +1,34 @@
+#Kotitehtävät 4
+
+#1. Luo SALARIES-niminen taulu, johon sijoitetaan sarakkeet
+#salaryID (pääavain, joka yksilöi taulun rivitiedot)
+#empnum (kenen palkasta on kyse, ei saa olla tyhjä arvo)
+#salary (palkan suuruus kahden desimaalin tarkkuudella)
+#2. Luo viite-eheys SALARIES- ja EMPS-taulujen välille siten, että päivitykset vyörytetään (UPDATE CASCADE) ja 
+#poistot estetään (DELETE NO ACTION). Vihje: Aloita selvittämällä mikä on yhteinen sarake SALARIES- ja EMPS-taulujen osalta.
+#5. Aseta taulun avainsarakkeelle vielä automaattinen laskuri (AUTO_INCREMENT), jolloin 
+#ID-numero käsitellään automaattisesti lisättäessä uutta palkkatietoa tauluun.
+CREATE TABLE SALARIES(
+SALARYID INT NOT NULL AUTO_INCREMENT,
+EMPNUM DECIMAL(3,0) NOT NULL,
+SALARY DOUBLE,
+CONSTRAINT pk_SALARYID PRIMARY KEY (SALARYID),
+CONSTRAINT fk_EMPNUM FOREIGN KEY (EMPNUM)
+REFERENCES EMPS (EMPNUM)
+ON UPDATE CASCADE
+ON DELETE CASCADE);
+
+#3. Lisää SALARIES-tauluun palkan voimaantuloa varten sarake fromdate, 
+#jonka sisällöksi tulee automaattisesti tämä kuluva päivämäärä (voi sisältää myös kellonajan).
+ALTER TABLE SALARIES
+ADD COLUMN FROMDATE timestamp;
+
+#4. Lisää tauluun rajoitin, joka estää yli 10000 euron palkan lisäämisen tauluun.
+delimiter $$
+create trigger salary_x before insert on SALARIES
+FOR EACH ROW
+	BEGIN
+		IF NEW.SALARY > 10000
+			then set new.SALARY = 10000;
+		end if;
+end $$

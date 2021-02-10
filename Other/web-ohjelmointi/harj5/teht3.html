@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+
+    <head>
+      <link rel="stylesheet" type="text/css" href="teht2.css">
+    </head>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("p").hide();
+        $("#ot1").click(function() {
+          $("#t1").toggle("slow");
+        });
+        $("#ot2").click(function() {
+          $("#t2").toggle("slow");
+        });
+        $("#ot3").click(function() {
+          $("#t3").toggle("slow");
+        });
+        $("#ot4").click(function() {
+          $("#t4").toggle("slow");
+        });
+        $("#ot5").click(function() {
+          $("#t5").toggle("slow");
+        });
+      });
+
+    </script>
+
+    <section>
+      <article>
+        <h3 id="ot1"> Otsikko 1 </h3>
+        <p id="t1">
+          ensimmäinen teksti
+        </p>
+      </article>
+      <h3 id="ot2"> Otsikko 2 </h3>
+      <p id="t2">
+        Toinen teksti
+      </p>
+      <article>
+        <h3 id="ot3"> Otsikko 3 </h3>
+        <p id="t3">
+          Kolmas teksti
+        </p>
+      </article>
+      <h3 id="ot4"> Otsikko 4 </h3>
+      <p id="t4">
+        Neljäs teksti
+      </p>
+      <article>
+        <h3 id="ot5"> Otsikko 5 </h3>
+        <p id="t5">
+          Viides teksti
+        </p>
+      </article>
+
+      <article>
+      </article>
+    </section>
+  </body>
+
+</html>
+
