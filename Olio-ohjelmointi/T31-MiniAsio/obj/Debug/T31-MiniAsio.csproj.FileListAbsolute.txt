@@ -1,6 +1,0 @@
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\bin\Debug\T31-MiniAsio.exe.config
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\bin\Debug\T31-MiniAsio.exe
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\bin\Debug\T31-MiniAsio.pdb
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\obj\Debug\T31-MiniAsio.csproj.CoreCompileInputs.cache
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\obj\Debug\T31-MiniAsio.exe
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T31-MiniAsio\obj\Debug\T31-MiniAsio.pdb

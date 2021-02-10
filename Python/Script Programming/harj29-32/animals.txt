@@ -1,5 +1,0 @@
-Rabbit
-Pig
-Dog
-Horse
-Bird

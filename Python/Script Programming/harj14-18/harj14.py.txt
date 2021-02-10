@@ -1,9 +1,0 @@
-def division(x,y):
-	try:
-    		return x/y
-	except ZeroDivisionError:
-    		return("Divided by zero!")
-x = int(input("Anna luku: "))
-y = int(input("Anna toinen lku: "))
-
-print(division(x,y))

@@ -1,7 +1,0 @@
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\obj\Debug\T36-Ostoskärry.csprojAssemblyReference.cache
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\obj\Debug\T36-Ostoskärry.csproj.CoreCompileInputs.cache
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\bin\Debug\T36-Ostoskärry.exe.config
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\bin\Debug\T36-Ostoskärry.exe
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\bin\Debug\T36-Ostoskärry.pdb
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\obj\Debug\T36-Ostoskärry.exe
-C:\Users\JereP\Documents\koulu\olio-tehtavat\Tehtävät\T36-Ostoskärry\obj\Debug\T36-Ostoskärry.pdb
